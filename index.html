@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+    <link rel="icon" href="./whatslogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* outline: none; */
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        nav {
+            position: absolute;
+            height: 40vh;
+            width: 100%;
+            background-color: #00ab84;
+            position: relative;
+
+        }
+
+        nav img {
+            height: 50px;
+            width: 50px;
+            position: relative;
+            background: none;
+            margin-left: 140px;
+            top: 20px;
+        }
+
+        main {
+            position: relative;
+            top: -25vh;
+            margin: auto;
+            height: 185vh;
+            width: 80%;
+            background-color: white;
+            margin: auto;
+            border-radius: 5px;
+            /* display: flex; */
+            align-items: center;
+            padding: 80px;
+
+        }
+
+        .cont {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            top: -5vh;
+            position: relative;
+            background-attachment: fixed;
+            height: 20vh;
+            width: 95%;
+            border: 1px solid grey;
+            border-radius: 5px;
+            
+            
+            
+        }
+
+        .container div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px;
+            
+        }
+
+        .container .para {
+            display: flex;
+            flex-direction: column;
+            align-items: self-start;
+        }
+
+        nav P {
+            position: relative;
+            background: none;
+            margin-left: 200px;
+            top: -20px;
+            align-items: center;
+            color: wheat;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .im img {
+            height: 60px;
+            width: 60px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: white;
+            font-weight: 200;
+            padding: 10px 25px;
+            background-color: #00ab84;
+            border-radius: 25px;
+
+        }
+
+        .mat {
+            position: relative;
+            /* top: -250px; */
+        }
+        .mat{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .mat p{
+            position: relative;
+            line-height: 25px;
+        }
+         ol li{
+            line-height: 45px;
+            font-size: larger;
+            list-style-position: inside;
+         }
+         .mat img{
+            position: relative;
+            left: 20px;
+            
+         }
+         hr{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            
+         }
+         
+         
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="./whatslogo.png" alt="">
+        <P>WHATSAPP WEB</P>
+    </nav>
+    <main>
+        <div class="cont">
+            <div class="container">
+                <div class="im">
+                    <img style="background: none;" src="./logo.jpg" alt="">
+                </div>
+                <div class="para">
+                    <p style="color: black;font-size: larger;">Download WhatsApps for Windows</p>
+                    <p style="color: grey; font-size: 15px;">Get calling, screen sharing and a faster experience with the new Windows app.</p>
+                </div>
+                <div class="link">
+                    <a href="">Get the app</a>
+                </div>
+
+            </div>
+            <div class="mat">
+                <div>
+                    <p style="color: grey;font-size: 30px; margin-right: 10px; margin-bottom: 30px; margin-top: 20px; padding: none;">Use WhatsApp on your computer</p>
+                    <ol>
+                        <li>Open WhatsApp on your computer</li>
+                        <li>Tap Menu <i class="fa-solid fa-ellipsis-vertical"></i> on Android, or Settings <i class="fa-solid fa-gear"></i> on iphone</li>
+                        <li>Tap Linked devices and then Link a device</li>
+                        <li>Point your phone at this screen to capture the QR code</li>
+                    </ol>
+                </div>
+                <img src="./qr.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <a style="color: #00ab84; font-size: 22px; text-decoration: none;" href="">Link with your phone number</a>
+        <p style="text-align: center; margin-top: 120px; font-size: xx-large; color: grey; margin-bottom: 20px;">Tutorial</p>
+        <a style="color: #00ab84; text-decoration: none; text-align: center; margin-left: 380px; " href="">Need help to get started?</a>
+        <video style="margin-top: 20px; margin-left: 200px;" height="300" width="500"  controls controlslist="nodownload">
+            <source src="./video.mp4">
+        </video>
+      
+
+    </main>
+
+</body>
+
+</html>
